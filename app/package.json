@@ -1,0 +1,11 @@
+{
+  "name": "tt-mapper",
+  "version": "1.0.0",
+  "description": "A tool to help me design and run table top RPG campaigns",
+  "main": "index.js",
+  "scripts": {
+    "test": "tt-test"
+  },
+  "author": "mgwaring0",
+  "license": "MIT"
+}
