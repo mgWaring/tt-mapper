@@ -1,0 +1,7 @@
+{
+    "story1":{
+        "collection":"story1.json",
+        "title": "Story Number One",
+        "image": "/image.jpg"
+    }
+}

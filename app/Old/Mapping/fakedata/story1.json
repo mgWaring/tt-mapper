@@ -1,0 +1,66 @@
+{
+    "00page00": {
+        "id": "00page00",
+        "title": "You are dead",
+        "limg": "../img/play/story1/start/lhimg.jpg",
+        "rimg": "../img/play/story1/start/lhimg.jpg",
+        "body": "The wieght of failure rests upon your back. Perhaps now is a good time to evalate your choices. Is this what you hoped for? Do you deserve this? Or perhaps you wish to try again?",
+        "options": [
+            {
+                "text": "Try again",
+                "target": "start"
+            }
+        ]
+    },
+    "start": {
+        "id": "start",
+        "title": "It all begins with a choice...",
+        "limg": "../img/play/story1/start/lhimg.jpg",
+        "rimg": "../img/play/story1/start/lhimg.jpg",
+        "body": "It's a simple choice, take your pick.\n Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus   Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus ",
+        "options": [
+            {
+                "text": "YES",
+                "target": "00page03"
+            },
+            {
+                "text": "NO",
+                "target": "00page00"
+            }
+        ]
+    },
+    "00page02": {
+        "id": "00page02",
+        "title": "You win!",
+        "limg": "../img/play/story1/start/lhimg.jpg",
+        "rimg": "../img/play/story1/start/lhimg.jpg",
+        "body": "Hurrah, you win?",
+        "options": [
+            {
+                "text": "Try again",
+                "target": "start"
+            },
+            {
+                "text": "Welcome the end of all things",
+                "target": "00page00"
+            }
+        ]
+    },
+    "00page03": {
+        "id": "00page03",
+        "title": "But...",
+        "limg": "../img/play/story1/start/lhimg.jpg",
+        "rimg": "../img/play/story1/start/lhimg.jpg",
+        "body": "But then again, maybe you made the wrong choice....",
+        "options": [
+            {
+                "text": "Doubt Yourself",
+                "target": "00page00"
+            },
+            {
+                "text": "Welcome rightful pride",
+                "target": "00page02"
+            }
+        ]
+    }
+}
