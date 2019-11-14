@@ -1,9 +1,2 @@
-FROM node:6
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
-COPY package.json /usr/src/app
-RUN npm cache clean
-RUN npm install
-COPY . /usr/src/app
-EXPOSE 3535
-CMD ["npm","start"]
+FROM amazon/dynamodb-local
+EXPOSE 8000

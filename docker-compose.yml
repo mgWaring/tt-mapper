@@ -1,19 +1,19 @@
-version: '3.1' 
+version: '0.1' 
 services:
 #-----------------
- angular:
+ react:
   build: ./app
   ports:
-  - "3535:3535"
+  - "3000:3000"
 #-----------------
  express: 
   build: ./api
   ports:
-  - "7777:7777"
+  - "3005:3005"
   links:
   - database 
 #-----------------
  database:
-  image: mongo 
+  image: amazon/dynamodb-local
   ports:
-  - "20207:20207"
+  - "8000:8000"
